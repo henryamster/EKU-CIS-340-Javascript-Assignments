@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Orders Information</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Questrial" rel="stylesheet" <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<p id="alert" class="alert"></p>
+<form name="frmStudent" id="1" action=" " 
+	>
+<fieldset id="contactEntry">
+<legend>Contact Information</legend>
+	<label for="lastName">Last Name:</label>
+	<input type="text" name="lastName" id="lastName" />
+	<label for="firstName">First Name:</label>
+	<input type="text" name="firstName" id="firstName" />
+	<label for="email">E-Mail:</label>
+	<input type="email" name="email" id="email" />
+</fieldset>
+<div class="fieldset-container">
+<fieldset id="fieldClass">
+
+<legend>Class Classification</legend>
+        <input type="radio" name="class" id="freshman" value="Freshman" />
+            &nbsp;&nbsp;Freshman<br/>
+        <input type="radio" name="class" id="sophomore" value="Sophomore" />
+            &nbsp;&nbsp;Sophomore<br/>
+        <input type="radio" name="class" id="junior" value="Junior"    />
+            &nbsp;&nbsp;Junior<br/>
+        <input type="radio" name="class" id="senior" value="Senior"    />
+            &nbsp;&nbsp;Senior
+    </fieldset>
+    
+    <fieldset id="fieldAdvisor">
+    <legend>My Advisor</legend>
+        <select size="5" name="advisor" id="advisor"> 
+            <option >Mike Hawksley</option>
+            <option value="Chang-Yang Lin">CY Lin</option>
+            <option>Steve Loy</option>
+            <option>Bob Mahaney</option>
+            <option>Ted Randles</option>
+        </select>
+    </fieldset>
+    <fieldset class="p150">	
+    
+    <legend>KY Resident</legend>
+    <input type="checkbox" name="resident" id="resident" />&nbsp;&nbsp;
+	<label for="resident">Kentucky Resident</label>
+	</fieldset>				 
+    </div>
+
+<p><input type="button" id="btn" value="Submit"  />&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="reset" value="Reset" /></p>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

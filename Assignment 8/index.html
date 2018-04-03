@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Orders Information</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Questrial" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="heart">
+        <ul>
+            <li>&#9776; </li>
+        </ul>
+    </nav>
+    <h1>Order Information</h1>
+    <p id="alert">Please enter the desired quantity for this item.</p>
+    <form name="frmOrder" id="1" action="">
+        <fieldset id="orderEntry">
+            <legend>Order Entry</legend>
+            <p> Unit Price: $259.99 &nbsp;&nbsp;&nbsp;&nbsp; In Stock: Yes </p>
+            <label for="qty">Desired Quantity:</label>
+            <input type="text" name="qty" id="qty" class="input" size="10" />
+            <input type="button" class="btn" id="btn" value="Submit Order" />
+        </fieldset>
+        <fieldset id="orderSummary">
+            <legend>Order Summary</legend>
+            <label for="subTotal">Subtotal:</label>
+            <input type="text" name="subTotal" class="input" id="subTotal" />
+            <label for="tax">Sales Tax (6%):</label>
+            <input type="text" name="tax" class="input" id="tax" />
+            <label for="orderTotal">Order Total:</label>
+            <input type="text" name="orderTotal" class="input" id="orderTotal" />
+        </fieldset>
+    </form>
+    <div class="info">
+        <span class="curr">&copy;</span> Henry Fritz 2018 <br>
+        <a href="https://henryfritz.xyz">http://henryfritz.xyz</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!--
+/* 
+Henry Fritz 
+2/28/2018
+For pedagogical use only
+https://henryfritz.xyz/
+*/-->

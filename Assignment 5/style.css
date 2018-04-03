@@ -1,0 +1,144 @@
+body {
+    color: #f0eeee display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8%;
+    font-weight: 100;
+    color: cornflowerblue;
+    background-color: floralwhite;
+    font-family: 'Nanum Gothic', serif;
+}
+
+h1 {
+    font-size: 3.2em;
+    text-shadow: 2px 2px grey;
+}
+
+input {
+    width: 40%;
+    font-size: 3em;
+    border: 4px solid cornflowerblue;
+    box-shadow: 2px 2px grey;
+    text-shadow: 1px 1px grey;
+    border-radius: 13px;
+    padding-left: 13px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.deg {
+    font-size: 4em;
+    text-shadow: 2px 2px grey;
+}
+
+.info {
+    text-shadow: .5px .5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 12px;
+    right: 2px;
+    /*     font-family: 'Questrial', Helvetica, sans-serif; */
+    /*    padding-top: 10em;*/
+    font-size: 1.2em;
+    color: black;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    padding-left: 17px;
+    box-shadow: 0px 4px grey;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    font-weight: bold;
+}
+
+
+.info a {
+    color: red;
+    text-decoration: none;
+
+}
+
+.curr {
+    color: grey;
+}
+
+#heart {
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    font-size: 2.8em;
+    position: fixed;
+    top: 0;
+    right: 50px;
+    color: white;
+    text-shadow: 2px 2px grey;
+    background: rgba(0, 200, 169, 0.4);
+
+    width: 90px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    box-shadow: 2px 2px grey;
+}
+
+#heart ul {
+    list-style: none;
+    position: absolute;
+    top: -40px;
+    right: 25px;
+}
+
+@media screen and (max-width:874px) {
+    body {
+        padding: 4%;
+    }
+    h1 {
+        font-size: 2.4em;
+    }
+    input {
+        font-size: 1.3em;
+    }
+    .info {
+
+        font-size: .9em;
+        width: 150px;
+    }
+    .deg {
+        font-size: 2em;
+    }
+    #heart {
+        /*     display:none; */
+        top: auto;
+        right: auto;
+        left: 0;
+        bottom: 40px;
+        border-radius: 0;
+        border-top-right-radius: 2em;
+        border-bottom-right-radius: 2em;
+
+    }
+
+}
+
+@media screen and (max-height:400px) {
+    .info {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        width: 30vw;
+        bottom: auto;
+    }
+    #heart {
+        display: none;
+    }
+
+}
+
+/* 
+Henry Fritz 
+2/28/2018
+For pedagogical use only
+https://henryfritz.xyz/
+*/
