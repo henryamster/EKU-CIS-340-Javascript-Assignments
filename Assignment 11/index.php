@@ -21,8 +21,8 @@
    
 
 	<h1>Login</h1>
-	<?php if (isset($_POST['userN']) & isset($_POST['pin'])): ?>
-    <p id="alert"> Hello, <?= $_POST['userN'] ?>! </p>
+	<?php if (isset($_POST['userN'])): ?>
+    <p id="alert"> Hello, <strong> <?= $_POST['userN'] ?>! </strong></p>
     <?php else: ?>
 	<p id="alert">Please enter your username and PIN.</p>
 	<?php endif ?>
