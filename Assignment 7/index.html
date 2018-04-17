@@ -20,13 +20,13 @@
 
 	<h1>Login</h1>
 	<p id="alert">Please enter your username and PIN.</p>
-	<form id ="1" name="formLogin" action="">
+	<form id ="1" name="formLogin" method="POST" action="submit.php">
 		<p><label for="userN">User Name: </label>
 		<input type="text" name="userN" id="userN" size="20" maxlength="8" tabindex="1"></p>
 		<p><label for="pin">PIN Number: </label>
 		<input type="password" name="pin" id="pin" size="20" maxlength="8" tabindex="2"></p>
 	
-		<input type="button" class="btn" name="btnLogIn" id="btn" value="Log In"  />	
+		<input type="button" class="btn" name="btnLogIn" id="btn" action="submit" value="Log In"  />	
 	</form>
 
 

@@ -1,0 +1,49 @@
+menuInfo{
+/*
+    display:flex;
+    justify-content:space-between;
+*/
+}
+*{ 
+    padding:10px 0 0 15px;
+    font-size: 14px;
+    width:60%;
+}
+summary{
+    display:block;
+    text-align: justify;
+}
+title {
+    font-size:3em;
+    color:blue;
+    font-weight: bolder;
+     display:block;
+}
+effectiveDate{
+    font-size:.7em;
+    font-style: italic;
+     display:block;
+}
+category{
+    font-size:1.2em;
+    color:blue;
+     display:block;
+    font-weight: bold;
+}
+itemName{
+    color:purple;
+     display:block;
+}
+price{
+    color:blue;
+     display:block;
+}
+indicator{
+    color:green;
+    display:inline;
+}
+description{
+    display:block;
+    width:80%;
+    text-align:justify;
+}

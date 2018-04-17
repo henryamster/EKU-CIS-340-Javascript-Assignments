@@ -17,6 +17,7 @@ function submit() {
     alert.innerHTML ="";
     //call validate all data
    validateAllData();
+
     
 }
 
@@ -39,6 +40,8 @@ function validateAllData(){
         var user =combineIntoObject(validateInputText(), validateAdvisorInput(), validateClassInput(), validateResidency());
         console.log(user);
    displayUser(user);
+           clearForm();
+//    
     }
 }
 //validateInputText-> module that selects, validates input text and then either returns an object that will be used to construct a larger object or an error message due to validity.
@@ -195,3 +198,16 @@ function resetErrorBorders(){
     document.getElementById('fieldAdvisor').style.border = "4px solid cornflowerblue";
 }
 document.getElementById('lastName').focus();
+
+/* empty out form on submission*/
+function clearForm(){
+ document.getElementById('1').reset();
+
+}
+
+/* 
+Henry Fritz 
+2/28/2018
+For pedagogical use only
+https://henryfritz.xyz/
+*/

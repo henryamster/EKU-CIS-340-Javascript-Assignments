@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="chester.css"?>
+
+    <menuInfo>
+        <title>
+            Chester's Breakfast Menu
+        </title>
+        <summary>
+            If you've been craving an authertic homestyle country breakfast, look no further than Chester's We've got your breakfast favorites served up just the way you like them!!
+        </summary>
+        <effectiveDate>
+            03/12/2016
+        </effectiveDate>
+        <menu>
+            <category>
+                Traditional Favorites
+            </category>
+            <menuItem>
+            <itemName>
+                Rise n' Shine
+            </itemName>
+            <description>
+                Two Eggs* cooked to order with Grits, Gravy and homemade Buttermilk Bisquits along with real Butter and the best fresh jam available, Served with you choive of Fresh Fruit or Hasbrown Casserole and Smoked Sausage Patties, Turkey Sausage Pattier or Thick-Sliced Bacon.
+            </description>
+            <price>
+                7.95
+            </price>
+            <indicator>
+
+            </indicator>
+            </menuItem>
+            <menuItem>
+            <itemName>
+                Fresh Mornin' Sampler
+            </itemName>
+            <description>
+                Low-Fat Vanilla Yogurt and Seasonal Fruit topped with our Honey Granola mix of Almonds and Dried Fruit. Served with a Wild Maine Blueberry Muffin or an Apple Bran Muffin.
+            </description>
+            <price>
+                6.95
+            </price>
+            <indicator>
+                ♥ ♦ ♠
+            </indicator>
+            </menuItem>
+        </menu>
+        <menu>
+            <category>
+                Lite and Quick
+            </category>
+            <menuItem>
+            <itemName>
+                Oatmeal Breakfast
+            </itemName>
+            <description>
+                Our Oatmeal is served warm with your choice of Fried Apples, Pecans, Raising, Fresh Sliced Bananas or 100% Pure Natural Syrup. Also ,served with your choice of Apple Bran Muffin or Wild Maine Blueberry Muffin. Available all day.
+            </description>
+            <price>
+                6.95
+            </price>
+            <indicator>
+                ♥ ♦ ♠
+            </indicator>
+            </menuItem>
+            <menuItem>
+            <itemName>
+                Chester's Meat Platter
+            </itemName>
+            <description>
+                Country Ham, Pork Chops or Steak* grilled to order, Three Eggs* cooked to order served with Cottage Cheese, Smoked Sausage Patties, Turkey Sausage Patties or Thick-Sliced Bacon.
+            </description>
+            <price>
+                12.95
+            </price>
+            <indicator>
+                ♥ ♦ ♠
+            </indicator>
+            </menuItem>
+        </menu>
+    </menuInfo>
