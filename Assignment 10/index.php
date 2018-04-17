@@ -4,7 +4,7 @@
     $name = 'Henry';
     $string1 = "Welcome to PHP Basics".;
     $string2 = "My name is" . $name . ". ";
-    $string3 = "Tomorrow Henry will learn basic PHP"; 
+    $string3 = "Tomorrow" . $name . " will learn basic PHP"; 
 ?>
     <h1><?= $string1 ?></$string1></h1>
     <h2><?= $string2 ?></$string1></h2>
